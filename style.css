@@ -3,7 +3,7 @@
   --bg-card: #111827;          /* Fondo del contenedor del paper */
   --text-main: #e2e8f0;         /* Texto principal claro de alta legibilidad */
   --text-muted: #94a3b8;        /* Texto secundario y notas */
-  --accent: #38bdf8;            /* Azul neón para títulos y fórmulas */
+  --accent: #38bdf8;            /* Azul neón para títulos y botones */
   --accent-glow: rgba(56, 189, 248, 0.12);
   --border: #1e293b;            /* Bordes sutiles oscuros */
   --code-bg: #030712;
@@ -63,6 +63,25 @@ h1.title {
   flex-direction: column;
   gap: 0.4rem;
   align-items: center;
+}
+
+/* BOTÓN DE DESCARGA PDF */
+.download-btn {
+  display: inline-block;
+  background-color: var(--accent);
+  color: #0a0e17;
+  font-weight: bold;
+  padding: 0.75rem 1.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(56, 189, 248, 0.3);
+}
+
+.download-btn:hover {
+  background-color: #7dd3fc;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(56, 189, 248, 0.5);
 }
 
 .abstract-box {

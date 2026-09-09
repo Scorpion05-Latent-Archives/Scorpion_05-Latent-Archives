@@ -1,11 +1,11 @@
 :root {
-  --bg-primary: #0a0e17;       /* Fondo principal ultra oscuro */
-  --bg-card: #111827;          /* Fondo del contenedor del paper */
-  --text-main: #e2e8f0;         /* Texto principal claro de alta legibilidad */
-  --text-muted: #94a3b8;        /* Texto secundario y notas */
-  --accent: #38bdf8;            /* Azul neón para títulos y botones */
+  --bg-primary: #0a0e17;
+  --bg-card: #111827;
+  --text-main: #e2e8f0;
+  --text-muted: #94a3b8;
+  --accent: #38bdf8;
   --accent-glow: rgba(56, 189, 248, 0.12);
-  --border: #1e293b;            /* Bordes sutiles oscuros */
+  --border: #1e293b;
   --code-bg: #030712;
   --font-body: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
@@ -65,7 +65,6 @@ h1.title {
   align-items: center;
 }
 
-/* BOTÓN DE DESCARGA PDF */
 .download-btn {
   display: inline-block;
   background-color: var(--accent);
